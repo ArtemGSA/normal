@@ -36,7 +36,7 @@ public class Main {
             System.out.println("в школу.");
         } else if ((age >= 18) & (age <= 24)) {
             System.out.println("в университет.");
-        } else if (age >= 24) {
+        } else if (age > 24) {
             System.out.println("на работу.");
         }        //ЗАДАЧА5
         System.out.println("ЗАДАЧА 5");
@@ -51,23 +51,25 @@ public class Main {
         //ЗАДАЧА6
         System.out.println("ЗАДАЧА 6");
         int colichestvoZanytMest = 30;
-        if(colichestvoZanytMest>102){
+        int vsegoMest = 102;
+        int sidychihMest = 60;
+        if(colichestvoZanytMest>vsegoMest){
             System.out.println("Места нет. Вагон забит.");
-        } else if (colichestvoZanytMest>60) {
+        } else if (colichestvoZanytMest>sidychihMest) {
             System.out.println("Место есть. Место стоячее.");
         } else{
             System.out.println("Место есть. Место сидячее.");
         }
         //ЗАДАЧА 7
         System.out.println("ЗАДАЧА 7");
-        int one = 1;
-        int two = 2;
-        int three = 3;
+        int one = 7;
+        int two = 6;
+        int three = 8;
         if(one>two){
             if(one>three){
                 System.out.println("one Больше всех. Оно равно " + one);
             }else {
-                System.out.println("two Больше всех. Оно равно "+ two);
+                System.out.println("three Больше всех. Оно равно "+ three);
             }
         } else if (three>two) {
             System.out.println("three Больше всех. Оно равно " + three);
