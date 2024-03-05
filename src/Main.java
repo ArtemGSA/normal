@@ -1,7 +1,6 @@
 import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
-
         //ЗАДАЧА1
         System.out.println("ЗАДАЧА1");
         int[]arrOfInt = new int[3];
