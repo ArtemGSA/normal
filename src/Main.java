@@ -4,7 +4,10 @@ public class Main {
 
         //ЗАДАЧА1
         System.out.println("ЗАДАЧА1");
-        int[]arrOfInt = new int[]{1, 2, 3};
+        int[]arrOfInt = new int[3];
+        arrOfInt[0]= 1;
+        arrOfInt[1]= 2;
+        arrOfInt[2]= 3;
         double[]arrOfDouble = {1.57, 7.654, 9.986};
         int[]improArr = {4, 5, 6};
         //по дефолту массив заполнен нулями
